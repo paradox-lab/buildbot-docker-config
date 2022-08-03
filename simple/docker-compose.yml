@@ -35,6 +35,3 @@ services:
     links:
       - buildbot
 
-    volumes:
-      - /var/run/docker.sock:/var/run/docker.sock  # pytest
-      - /usr/bin/docker:/usr/bin/docker  # pytest
